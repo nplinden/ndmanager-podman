@@ -10,4 +10,4 @@ mkdir -p ndmanager/hdf5
 mkdir -p ndmanager/chains
 mkdir -p ndmanager/modulefiles
 
-podman run -it -v ./ndmanager:/wrk/ndmanager ndmanager bash
+podman run -it -v .:/wrk/ndmanager-podman ndmanager bash
